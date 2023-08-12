@@ -1,0 +1,152 @@
+.dashboard {
+  display: flex;
+}
+
+.dashboard-content {
+  padding: 1rem;
+  margin-top: 20px;
+  margin-left: 250px;
+  display: flex;
+  gap: 50px;
+}
+
+.dashboard-item {
+  background-color: #F4F5F3;
+  height: fit-content;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-weight: bold;
+}
+
+.total {
+  color: green;
+}
+
+.delivered {
+  color: orange;
+}
+
+.low {
+  color: red;
+}
+
+.department {
+  display: flex;
+  
+}
+
+.department-content {
+  padding: 1rem;
+  margin-top: 20px;
+  margin-left: 250px;
+  display: flex;
+  gap: 50px;
+}
+
+.department-item {
+  background-color: #F4F5F3;
+  height: fit-content;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-weight: bold;
+}
+
+.products {
+  display: flex;
+}
+
+.products-content {
+  margin-top: 20px;
+  margin-left: 250px;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  gap: 40px;
+  padding: 20px;
+}
+
+.products-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+
+.add-btn {
+  border: none;
+  background-color: #017BFE;
+  color: #F8FBFF;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+
+.add-btn-link {
+  color: #F8FBFF;
+  text-decoration: none;
+}
+
+.product-image {
+  height: 100px;
+  width: 100px;
+}
+
+table, td, th {
+  border-collapse: collapse;
+  border: 1px solid black;
+  text-align: center;
+
+}
+
+.singleproduct {
+  display: flex;
+}
+
+.product-content {
+  margin-left: 250px;
+  padding: 1rem 2rem;
+}
+.single-product-image {
+  width: 400px;
+
+}
+
+.add {
+  display: flex;
+}
+
+.add-content {
+  margin-left: 250px;
+  padding: 0.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.user-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-input > input {
+  width: 500px;
+}
+
+.add-product-btn {
+  border: none;
+  background-color: #017BFE;
+  color: #F8FBFF;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 4px; 
+}
